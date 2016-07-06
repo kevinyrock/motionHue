@@ -5,13 +5,10 @@ This code uses I2C for communication which happens to be Pins 4 (SDA) and 5 (SCL
 # Setup
 
 After cloning this repository:
+
 ```bash
-pip install -U platformio
-
 cd motionHue
-
-mkdir -p lib/Auth
-nano /lib/Auth/authentication.h
+pip install -U platformio
 ```
 Inside of the authentication.h file, fill in the following:
 
@@ -33,7 +30,7 @@ platformio run -t upload
 
 #TODO
 * Document wiring
-* Implement gesture recognition
+~~* Implement gesture recognition~~
 * Create & Upload 3D enclosure
 
 
